@@ -1,0 +1,45 @@
+/* projects.css - Específico para a página de projetos (opcional) */
+
+/* Se quiser manter estilos específicos apenas para a página de projetos */
+.project-highlight {
+    background-color: #e3f2fd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.project-highlight h2 {
+    color: #1976d2;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Se precisar de ajustes específicos para o grid de projetos */
+.project-grid {
+    gap: 2rem;
+}
+
+.project-item {
+    transition: all 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Estilos para links de projetos */
+.project-item a {
+    background-color: #1976d2;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.project-item a:hover {
+    background-color: #1565c0;
+}

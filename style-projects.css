@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0077b5; /* Cor do LinkedIn */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile h1 {
+    margin: 10px 0;
+    font-size: 32px;
+}
+
+.profile h2 {
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+.profile p {
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.project-item a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para imagens no rodapé */
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Estilos para links no rodapé */
+footer a {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para parágrafos no rodapé */
+footer p {
+    margin: 2px;
+}
+
+/* Estilos para o container principal */
+.container {
+    padding: 0 50px;
+}
+
+}
+
+/* Estilos para o texto de copyright */
+.copyright {
+    color: white;
+    margin-left: 20px; /* Espaçamento entre os links e o texto de copyright */
+}

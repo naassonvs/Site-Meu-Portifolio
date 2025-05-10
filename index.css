@@ -1,0 +1,68 @@
+body {
+    color: white; /* Define a cor do texto como branco */
+    background: black; /* Define o fundo da página como preto */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes utilizada */
+}
+
+/* Estilizando a lista de navegação na página */
+ul {
+    display: flex; /* Organiza os itens da lista em linha (horizontalmente) */
+    justify-content: space-between; /* Distribui os itens igualmente com espaçamento entre eles */
+    list-style-type: none; /* Remove os marcadores da lista (nenhum ponto ou número) */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    padding: 20px; /* Adiciona um espaço interno de 20px ao redor da lista */
+}
+
+a {
+    color: white; /* Define a cor dos links como branco */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+header img {
+    width: 200px; /* Define a largura da imagem do cabeçalho */
+    height: 200px; /* Define a altura da imagem do cabeçalho */
+    border-radius: 50%; /* Aplica bordas arredondadas para criar uma imagem circular */
+    border: 5px solid white; /* Adiciona uma borda branca sólida de 5px ao redor da imagem */
+}
+
+/* Classe usada para centralizar elementos, como imagens */
+.center {
+    text-align: center; /* Centraliza o conteúdo dentro desse contêiner */
+}
+
+footer img {
+    width: 40px; /* Define a largura das imagens no rodapé */
+    height: 40px; /* Define a altura das imagens no rodapé */
+}
+
+footer {
+    display: flex; /* Organiza o conteúdo do rodapé em uma linha flexível */
+    flex-direction: column; /* Altera a direção dos itens para vertical (um embaixo do outro) */
+    align-items: center; /* Centraliza os itens do rodapé horizontalmente */
+    padding: 20px; /* Adiciona um espaçamento de 20px ao redor do rodapé */
+}
+
+footer .footer-links {
+    display: flex; /* Organiza os links do rodapé em uma linha flexível */
+    justify-content: center; /* Centraliza os links horizontalmente */
+}
+
+footer a {
+    margin: 20px; /* Adiciona um espaçamento de 20px ao redor dos links */
+    text-align: center; /* Centraliza o texto dentro dos links */
+}
+
+footer p {
+    margin: 2px; /* Define um pequeno espaçamento de 2px ao redor dos parágrafos no rodapé */
+}
+
+.container {
+    padding: 0px 50px; /* Adiciona um espaçamento interno de 50px apenas nas laterais (esquerda e direita) */
+}
+
+/* Estilo para o texto de copyright no rodapé */
+.footer-copyright {
+    margin-top: 10px; /* Adiciona um espaço acima do texto de copyright */
+    font-size: 14px; /* Define o tamanho da fonte como 14px */
+    color: #ccc; /* Define a cor do texto como cinza claro */
+}

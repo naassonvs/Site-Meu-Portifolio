@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naasson Vieira | Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <header class="contact-header">
+            <div class="center">
+                <img src="https://naassondev.netlify.app/naasson.jpg" alt="Naasson Vieira">
+            </div>
+            <h1>Vamos Conversar!</h1>
+            <h2>Entre em contato de várias formas</h2>
+        </header>
+
+        <main class="contact-main">
+            <!-- Seção de Contato Inteligente -->
+            <section class="contact-intro">
+                <h3><i class="fas fa-lightbulb"></i> Escolha a melhor forma para você</h3>
+                <p>Precisa de um desenvolvedor para seu projeto? Quer colaborar? Ou apenas bater um papo sobre tecnologia? Selecione o tipo de contato abaixo e eu responderei da forma mais adequada.</p>
+            </section>
+
+            <!-- Cards de Contato Interativos -->
+            <div class="contact-options">
+                <div class="contact-card" data-contact-type="job">
+                    <i class="fas fa-briefcase"></i>
+                    <h4>Oportunidade de trabalho</h4>
+                    <p>Proposta profissional ou colaboração</p>
+                </div>
+                
+                <div class="contact-card" data-contact-type="project">
+                    <i class="fas fa-code"></i>
+                    <h4>Orçamento de Projeto</h4>
+                    <p>Solicitar orçamento para desenvolvimento</p>
+                </div>
+                
+                <div class="contact-card" data-contact-type="chat">
+                    <i class="fas fa-comments"></i>
+                    <h4>Conversar sobre Tech</h4>
+                    <p>Tirar dúvidas ou discutir ideias</p>
+                </div>
+            </div>
+
+            <!-- Formulário Dinâmico -->
+            <form id="contactForm" class="contact-form">
+                <h3><i class="fas fa-paper-plane"></i> Mande sua mensagem</h3>
+                
+                <div class="form-group">
+                    <label for="name">Seu Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Seu E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Assunto</label>
+                    <input type="text" id="subject" name="subject" readonly>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                </button>
+            </form>
+
+            <!-- Contatos Diretos -->
+            <section class="direct-contact">
+                <h3><i class="fas fa-address-book"></i> Ou me encontre diretamente</h3>
+                <div class="direct-options">
+                    <a href="mailto:seuemail@example.com" class="direct-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>naassonvs@gmail.com</span>
+                    </a>
+                    
+                    <a href="https://wa.me/SEUNUMERO" class="direct-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>+55 (31) 99232-2616</span>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/naassonsilva/" class="direct-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-links">
+                <a href="https://github.com/naassonvs" target="_blank" rel="noopener noreferrer">
+                    <img src="https://naassondev.netlify.app/github.svg" alt="GitHub">
+                    <p>Github</p>
+                </a>
+                <a href="https://linkedin.com/in/naassonsilva/" target="_blank" rel="noopener noreferrer">
+                    <img src="https://naassondev.netlify.app/LinkedIn_icon.svg" alt="LinkedIn">
+                    <p>Linkedin</p>
+                </a>
+                <a href="https://drive.google.com/file/d/1AeGUwHYbzQUqMaveAZDWxjcj-wySji8x/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                    <img src="https://naassondev.netlify.app/google-drive.svg" alt="Google Drive">
+                    <p>Google Drive</p>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2025 Naasson Vieira
+            </div>
+        </footer>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>

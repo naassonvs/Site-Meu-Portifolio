@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página não encontrada - 404</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 50px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .toilet-paper {
+            font-size: 100px;
+            margin: 20px 0;
+            animation: roll 3s infinite;
+        }
+        
+        h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            color: #ff6b6b;
+        }
+        
+        p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        
+        a {
+            display: inline-block;
+            background: #4ecdc4;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        a:hover {
+            background: #3aa79f;
+            transform: scale(1.05);
+        }
+        
+        @keyframes roll {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(10deg); }
+            50% { transform: rotate(0deg); }
+            75% { transform: rotate(-10deg); }
+            100% { transform: rotate(0deg); }
+        }
+        
+        .message {
+            font-style: italic;
+            margin-top: 20px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="toilet-paper">🧻</div>
+        <h1>404</h1>
+        <p>Parece que esta página foi enrolada como papel higiênico e desapareceu!</p>
+        <p>Enquanto limpamos esta bagunça, que tal voltar para onde as coisas fazem sentido?</p>
+        <a href="/">Leve-me para casa</a>
+        <p class="message">"Grandes descobertas começam com erros 404" - provavelmente um desenvolvedor frustrado</p>
+    </div>
+</body>
+</html>
