@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/naassonvs/portfolio)](https://github.com/naassonvs/portfolio/blob/main/LICENSE)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-BADGE-ID/deploy-status)](https://app.netlify.com/sites/YOUR-SITE-NAME/deploys)
 
-Bem-vindo ao repositório do meu site pessoal/portfólio! Este projeto representa minha jornada como desenvolvedor e mostra meus projetos, habilidades e formas de contato.
+Bem-vindo ao repositório do meu site pessoal/portfólio! Este projeto representa minha jornada inicial como desenvolvedor e mostra meus projetos, habilidades e formas de contato.
 
 ![Preview do Site](https://naassondev.netlify.app/preview.jpg)
 
